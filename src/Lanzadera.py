@@ -1,7 +1,7 @@
 from .Nave import Nave
 
 class Lanzadera(Nave):
-    def __int__(self, nombre, max_carga, max_distancia):
+    def __init__(self, nombre, max_carga, max_distancia):
         super().__init__(nombre)
         self.max_carga = max_carga
         self.max_distancia = max_distancia
